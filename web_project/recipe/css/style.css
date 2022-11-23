@@ -1,0 +1,48 @@
+body{
+  background-color: #2f4c5c;
+  color: white;
+  font-size: 21px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+p{
+  color:#ffaa00;
+}
+
+h3{
+  color: red;
+}
+
+h4{
+  color: rgb(17, 245, 234);
+}
+
+#top{
+  background: red;
+}
+
+#bottom{
+  background: rgb(197, 140, 250);
+}
+
+.highlight{
+  background: yellow;
+}
+.accent-color{
+  color: red;
+}
+
+center {
+  color: coral;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
