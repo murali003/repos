@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var signin = document.querySelector("#signin");
+        var register = document.querySelector("#register");
+        setTimeout(function () {
+           register.checked = true;
+        }, 1000);
+        setTimeout(function () {
+           signin.checked = true;
+        }, 2000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input id="signin" type="radio" name="tab" checked="checked"/>
+        <input id="register" type="radio" name="tab"/>
+        <div class="pages">
+          <div class="page">
+            <div class="input">
+              <div class="title">USERNAME</div>
+              <input class="text" type="text" placeholder=""/>
+            </div>
+            <div class="input">
+              <div class="title">PASSWORD</div>
+              <input class="text" type="password" placeholder=""/>
+            </div>
+            <div class="input">
+              <input type="submit" value="ENTER"/>
+            </div>
+          </div>
+          <div class="page signup">
+            <div class="input">
+              <div class="title">NAME</div>
+              <input class="text" type="text" placeholder=""/>
+            </div>
+            <div class="input">
+              <div class="title">EMAIL</div>
+              <input class="text" type="password" placeholder=""/>
+            </div>
+            <div class="input">
+              <input type="submit" value="SIGN ME UP!"/>
+            </div>
+          </div>
+        </div>
+        <div class="tabs">
+          <label class="tab text" for="signin">
+            Sign In</label>
+          <label class="tab text" for="register">
+            Register</label>
+        </div>
+      </div>
+</body>
+</html>
