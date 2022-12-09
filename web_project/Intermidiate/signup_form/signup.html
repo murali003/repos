@@ -6,18 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        var signin = document.querySelector("#signin");
-        var register = document.querySelector("#register");
-        setTimeout(function () {
-           register.checked = true;
-        }, 1000);
-        setTimeout(function () {
-           signin.checked = true;
-        }, 2000);
-    </script>
 </head>
 <body>
+  
     <div class="container">
         <input id="signin" type="radio" name="tab" checked="checked"/>
         <input id="register" type="radio" name="tab"/>
@@ -35,10 +26,11 @@
               <input type="submit" value="ENTER"/>
             </div>
           </div>
+          
           <div class="page signup">
             <div class="input">
               <div class="title">NAME</div>
-              <input class="text" type="text" placeholder=""/>
+              <input class="text" type="text" placeholder="" size="10"/>
             </div>
             <div class="input">
               <div class="title">EMAIL</div>

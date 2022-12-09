@@ -22,23 +22,23 @@ function game(position){
     setTimeout(() => {
         if(random==position){
             alert("MATCH DRAW !!");
-            window.location.reload();
+            location.reload();
         }
         else if(position==0 && random==2){
             alert("YOU ARE WINNER , GOOD JOB !!");
-            window.location.reload();
+            location.reload();
         }
         else if(position==1 && random==0){
             alert("YOU ARE WINNER , GOOD JOB !!");
-            window.location.reload();
+            location.reload();
         }
         else if(position==2 && random==1){
             alert("YOU ARE WINNER , GOOD JOB !!");
-            window.location.reload();
+            location.reload();
         }
         else{
             alert("COMPUTER IS WINNER,TRY NEXT TIME !!");
-            window.location.reload();
+            location.reload();
         }
     }, 5500);
 }
